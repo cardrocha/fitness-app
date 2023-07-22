@@ -4,7 +4,7 @@ import React from 'react'
 
 const ScrollBar = () => {
   return (
-    <div className="flex bg-secondary py-2 mt-14">
+    <div className="flex bg-secondary py-2 mt-[134px]">
       <div className="font-bebas animate-marquee-infinite text-3xl flex items-center gap-11 break-words whitespace-nowrap text-primary h-auto">
         <Image
           src="/icon-barbell.png"

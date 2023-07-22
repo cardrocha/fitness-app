@@ -14,7 +14,8 @@ module.exports = {
       },
       colors: {
         primary: '#fff',
-        secondary: '#222'
+        secondary: '#222',
+        background: '#A03333'
       },
       keyframes: {
         marquee: {
