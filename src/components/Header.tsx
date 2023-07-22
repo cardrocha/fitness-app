@@ -3,18 +3,18 @@ import React from "react";
 
 const Menu = () => {
   return (
-    <div className="container mx-auto">
+    <section className="container mx-auto">
       <div className="flex items-center justify-between">
         <h1 className="pt-4">
           <Image
-            src="/logo_fitness1.png"
+            src="/logo_fitness.svg"
             width={100}
             height={60}
             alt="logo da academia robust habit"
           />
         </h1>
         <nav className="relative z-30">
-          <ul className="font-bebas flex items-center gap-8 mr-14 text-2xl text-white font-bold pt-8">
+          <ul className="font-bebas flex items-center gap-8 mr-14 text-2xl text-primary font-bold pt-8">
             <li>
               <a href="#sobre">SOBRE</a>
             </li>
@@ -52,7 +52,7 @@ const Menu = () => {
           alt="seção hero"
         />
       </div>
-    </div>
+    </section>
   );
 };
 

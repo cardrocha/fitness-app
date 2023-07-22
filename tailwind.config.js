@@ -12,6 +12,19 @@ module.exports = {
         bebas: ['var(--font-bebas)'],
         bungee: ['var(--font-bungee)'],
       },
+      colors: {
+        primary: '#fff',
+        secondary: '#222'
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        }
+      },
+      animation: {
+        'marquee-infinite': 'marquee 20s linear infinite',
+      }
     },
   },
   plugins: [],
