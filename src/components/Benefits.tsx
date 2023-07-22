@@ -42,7 +42,7 @@ const Benefits = () => {
   };
 
   return (
-    <section className="container mx-auto">
+    <section className="container mx-auto mb-36">
       <div>
         <h2 className="font-bungee text-6xl text-center text-primary mt-40">
           Nossos <span className="font-bebas text-7xl">diferenciais</span>
