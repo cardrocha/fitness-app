@@ -15,15 +15,10 @@ const Hero = () => {
             objetivos
             <br /> fitness conosco. Experimente hoje!
           </p>
-          <div
-            className="bg-no-repeat bg-contain bg-center h-fit inline-flex items-center gap-4 font-bebas text-3xl text-primary mt-9 p-6 cursor-pointer relative"
-            style={{
-              backgroundImage: `url(/Rectangle_2.png)`,
-            }}
-          >
+          <a className="bg-secondary py-2 px-8 clip-path-mypolygon inline-flex items-center gap-4 font-bebas text-3xl text-primary mt-9 p-6 cursor-pointer">
             Começar
             <Image src="/Arrow.png" width={18} height={18} alt="icone seta" />
-          </div>
+          </a>
         </div>
       </section>
     </>

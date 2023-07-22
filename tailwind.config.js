@@ -24,8 +24,13 @@ module.exports = {
       },
       animation: {
         'marquee-infinite': 'marquee 20s linear infinite',
-      }
+      },
+      clipPath: {
+        mypolygon: "polygon(85% 0, 100% 53%, 100% 100%, 0 100%, 0 0)",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-clip-path'),
+  ],
 }

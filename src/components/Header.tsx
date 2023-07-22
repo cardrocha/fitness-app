@@ -27,13 +27,8 @@ const Menu = () => {
             <li>
               <a href="#sobre">EQUIPAMENTOS</a>
             </li>
-            <li
-              className="bg-no-repeat bg-contain bg-center p-7 h-fit"
-              style={{
-                backgroundImage: `url(/Rectangle_2.png)`,
-              }}
-            >
-              <a href="#sobre">REGISTRE-SE</a>
+            <li>
+              <a className="bg-secondary py-2 px-8 clip-path-mypolygon" href="#sobre">REGISTRE-SE</a>
             </li>
           </ul>
         </nav>
