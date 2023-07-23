@@ -16,19 +16,32 @@ const Menu = () => {
         <nav className="relative z-30">
           <ul className="font-bebas flex items-center gap-8 mr-14 text-2xl text-primary font-bold pt-8">
             <li>
-              <a href="#sobre">SOBRE</a>
+              <a className="hover:text-gray-200" href="#sobre">
+                SOBRE
+              </a>
             </li>
             <li>
-              <a href="#servicos">SERVIÇOS</a>
+              <a className="hover:text-gray-200" href="#servicos">
+                SERVIÇOS
+              </a>
             </li>
             <li>
-              <a href="#precos">PREÇOS</a>
+              <a className="hover:text-gray-200" href="#precos">
+                PREÇOS
+              </a>
             </li>
             <li>
-              <a href="#equipamentos">EQUIPAMENTOS</a>
+              <a className="hover:text-gray-200" href="#equipamentos">
+                EQUIPAMENTOS
+              </a>
             </li>
             <li>
-              <a className="bg-secondary py-2 px-8 clip-path-mypolygon" href="#sobre">REGISTRE-SE</a>
+              <a
+                className="bg-secondary hover:text-gray-200 py-2 px-8 clip-path-mypolygon"
+                href="#sobre"
+              >
+                REGISTRE-SE
+              </a>
             </li>
           </ul>
         </nav>

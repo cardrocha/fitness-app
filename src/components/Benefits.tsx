@@ -70,7 +70,7 @@ const Benefits = () => {
               onMouseEnter={handlerMouseEnter}
               onMouseLeave={handleMouseLeave}
               className={`${
-                hover ? "bg-background" : "bg-secondary"
+                hover ? "bg-secondaryBackground" : "bg-secondary"
               } duration-300 leading-5 py-2 pl-4 pr-7 mt-5 clip-path-mypolygon inline-flex items-center gap-6 font-bebas text-base text-primary p-8 cursor-pointer `}
             >
               conheça nossos
@@ -100,7 +100,7 @@ const Benefits = () => {
               onMouseEnter={handlerMouseEnter2}
               onMouseLeave={handleMouseLeave2}
               className={`${
-                hover2 ? "bg-background" : "bg-secondary"
+                hover2 ? "bg-secondaryBackground" : "bg-secondary"
               } duration-300 leading-5 py-2 pl-4 pr-7 mt-5 clip-path-mypolygon inline-flex items-center gap-6 font-bebas text-base text-primary p-8 cursor-pointer `}
             >
               Faça um tour
@@ -130,7 +130,7 @@ const Benefits = () => {
               onMouseEnter={handlerMouseEnter3}
               onMouseLeave={handleMouseLeave3}
               className={`${
-                hover3 ? "bg-background" : "bg-secondary"
+                hover3 ? "bg-secondaryBackground" : "bg-secondary"
               } duration-300 leading-5 py-4 pl-4 pr-7 mt-5 clip-path-mypolygon inline-flex items-center gap-6 font-bebas text-lg text-primary p-8 cursor-pointer `}
             >
               Ver modalidades
@@ -159,7 +159,7 @@ const Benefits = () => {
               onMouseEnter={handlerMouseEnter4}
               onMouseLeave={handleMouseLeave4}
               className={`${
-                hover4 ? "bg-background" : "bg-secondary"
+                hover4 ? "bg-secondaryBackground" : "bg-secondary"
               } duration-300 leading-5 py-2 pl-4 pr-7 mt-5 clip-path-mypolygon inline-flex items-center gap-6 font-bebas text-base text-primary p-8 cursor-pointer `}
             >
               Faça um tour

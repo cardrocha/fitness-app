@@ -16,8 +16,8 @@ const Contact = () => {
   const submitForm = (e: React.FormEvent) => {
     e.preventDefault();
     console.log(phone.length);
-    const phoneWithoutMask = removeDigits(phone);
-    if (phoneWithoutMask.length !== 11) {
+    const phoneMask = removeDigits(phone);
+    if (phoneMask.length !== 11) {
       alert("O telefone deve conter onze dígitos");
     } else {
       setShowMessage(true);
