@@ -45,28 +45,28 @@ const Footer = () => {
         <div className="flex flex-col gap-2">
           <a
             title="clique aqui"
-            className="font-bebas text-2xl text-primary"
+            className="font-bebas text-2xl text-primary hover:text-gray-200"
             href="#sobre"
           >
             SOBRE
           </a>
           <a
             title="clique aqui"
-            className="font-bebas text-2xl text-primary"
+            className="font-bebas text-2xl text-primary hover:text-gray-200"
             href="#servicos"
           >
             SERVIÇOS
           </a>
           <a
             title="clique aqui"
-            className="font-bebas text-2xl text-primary"
+            className="font-bebas text-2xl text-primary hover:text-gray-200"
             href="#precos"
           >
             PREÇOS
           </a>
           <a
             title="clique aqui"
-            className="font-bebas text-2xl text-primary"
+            className="font-bebas text-2xl text-primary hover:text-gray-200"
             href="#equipamentos"
           >
             EQUIPAMENTOS
