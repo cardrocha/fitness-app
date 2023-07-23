@@ -7,11 +7,26 @@ import Image from "next/image";
 const Contact = () => {
   const [name, setName] = React.useState("");
   const [phone, setPhone] = React.useState("");
+  const [showMessage, setShowMessage] = React.useState(false);
+
+  const removeDigits = (value: any) => {
+    return value.replace(/\D/g, "");
+  };
 
   const submitForm = (e: React.FormEvent) => {
     e.preventDefault();
-    setName("");
-    setPhone("");
+    console.log(phone.length);
+    const phoneWithoutMask = removeDigits(phone);
+    if (phoneWithoutMask.length !== 11) {
+      alert("O telefone deve conter onze dígitos");
+    } else {
+      setShowMessage(true);
+      setTimeout(() => {
+        setShowMessage(false);
+        setName("");
+        setPhone("");
+      }, 5000);
+    }
   };
 
   return (
@@ -36,7 +51,7 @@ const Contact = () => {
               placeholder="NOME"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              maxLength={15}
+              maxLength={13}
               size={15}
               required
             />
@@ -72,6 +87,13 @@ const Contact = () => {
         height={300}
         alt="mulher treinando com duas anilhas nas mãos"
       />
+      {showMessage && (
+      <div className="bg-primary p-2 mt-7 animate-fade-in-out">
+        <p className="font-mont text-xl ml-16 font-semibold">
+          Entraremos em contato o mais breve possível, obrigado!
+        </p>
+      </div>
+      )}
     </section>
   );
 };

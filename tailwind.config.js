@@ -25,10 +25,15 @@ module.exports = {
         marquee: {
           '0%': { transform: 'translateX(100%)' },
           '100%': { transform: 'translateX(-100%)' },
+        },
+        fadeInOut: {
+          '0%': {opacity: '1'},
+          '100%': { opacity: '0'},
         }
       },
       animation: {
         'marquee-infinite': 'marquee 20s linear infinite',
+        'fade-in-out': 'fadeInOut 5s ease-in-out', 
       },
       clipPath: {
         mypolygon: "polygon(85% 0, 100% 53%, 100% 100%, 0 100%, 0 0)",
