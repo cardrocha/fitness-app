@@ -1,8 +1,9 @@
+import Image from "next/image";
 import React from "react";
 
 const Contact = () => {
   return (
-    <section className="bg-secondary mt-[138px]">
+    <section className="bg-secondary mt-[138px] pb-28 relative">
       <div className="container mx-auto text-primary">
         <h3 className="font-bebas text-7xl pt-16">ENTRE EM CONTATO</h3>
         <p className="font-mont text-2xl mt-5">
@@ -22,6 +23,7 @@ const Contact = () => {
               type="text"
               placeholder="NOME"
               size={15}
+              required
             />
           </div>
           <div
@@ -32,9 +34,10 @@ const Contact = () => {
           >
             <input
               className="bg-secondary clip-path-mypolygon outline-none px-1 font-mont text-lg text-primary mt-1"
-              type="text"
+              type="tel"
               placeholder="TELEFONE"
               size={15}
+              required
             />
           </div>
         </div>
@@ -44,6 +47,13 @@ const Contact = () => {
           value="SOLICITAR CONTATO"
         ></input>
       </form>
+      <Image
+        className="absolute bottom-0 right-24 z-10"
+        src="/pngwing_3.png"
+        width={405}
+        height={300}
+        alt="fundo hero"
+      />
     </section>
   );
 };
