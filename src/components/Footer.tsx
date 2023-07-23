@@ -8,6 +8,7 @@ import {
 } from "react-icons/ai";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <section className="container mx-auto">
       <div
@@ -73,7 +74,7 @@ const Footer = () => {
         </div>
       </div>
       <span className="flex justify-center text-mont font-light text-xs text-primary">
-        &copy; 2023 - Robust Habit - Todos direitos reservados
+        &copy; {currentYear} - Robust Habit - Todos direitos reservados
       </span>
     </section>
   );
