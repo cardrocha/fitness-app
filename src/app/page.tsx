@@ -4,6 +4,7 @@ import ScrollBar from '@/components/ScrollBar'
 import Benefits from '@/components/Benefits'
 import Plans from '@/components/Plans'
 import Numbers from '@/components/Numbers'
+import Contact from '@/components/Contact'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Benefits />
       <Plans />
       <Numbers />
+      <Contact />
     </div>
   )
 }
