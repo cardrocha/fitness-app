@@ -51,7 +51,9 @@ const Benefits = () => {
           <div
             onMouseEnter={handlerMouseEnter}
             onMouseLeave={handleMouseLeave}
-            className={`${hover ? "bg-secondary" : ""} text-primary p-6 `}
+            className={`${
+              hover ? "bg-secondary" : ""
+            } duration-300 text-primary p-6 `}
           >
             <Image
               src="/sport.png"
@@ -69,7 +71,7 @@ const Benefits = () => {
               onMouseLeave={handleMouseLeave}
               className={`${
                 hover ? "bg-background" : "bg-secondary"
-              } leading-5 py-2 pl-4 pr-7 mt-5 clip-path-mypolygon inline-flex items-center gap-6 font-bebas text-base text-primary p-8 cursor-pointer `}
+              } duration-300 leading-5 py-2 pl-4 pr-7 mt-5 clip-path-mypolygon inline-flex items-center gap-6 font-bebas text-base text-primary p-8 cursor-pointer `}
             >
               conheça nossos
               <br /> profissionais
@@ -79,7 +81,9 @@ const Benefits = () => {
           <div
             onMouseEnter={handlerMouseEnter2}
             onMouseLeave={handleMouseLeave2}
-            className={`${hover2 ? "bg-secondary" : ""} text-primary p-6 `}
+            className={`${
+              hover2 ? "bg-secondary" : ""
+            } duration-300 text-primary p-6 `}
           >
             <Image
               src="/dumbbell.png"
@@ -97,7 +101,7 @@ const Benefits = () => {
               onMouseLeave={handleMouseLeave2}
               className={`${
                 hover2 ? "bg-background" : "bg-secondary"
-              } leading-5 py-2 pl-4 pr-7 mt-5 clip-path-mypolygon inline-flex items-center gap-6 font-bebas text-base text-primary p-8 cursor-pointer `}
+              } duration-300 leading-5 py-2 pl-4 pr-7 mt-5 clip-path-mypolygon inline-flex items-center gap-6 font-bebas text-base text-primary p-8 cursor-pointer `}
             >
               Faça um tour
               <br /> virtual
@@ -107,7 +111,9 @@ const Benefits = () => {
           <div
             onMouseEnter={handlerMouseEnter3}
             onMouseLeave={handleMouseLeave3}
-            className={`${hover3 ? "bg-secondary" : ""} text-primary p-6 `}
+            className={`${
+              hover3 ? "bg-secondary" : ""
+            } duration-300 text-primary p-6 `}
           >
             <Image
               src="/trainer.png"
@@ -125,7 +131,7 @@ const Benefits = () => {
               onMouseLeave={handleMouseLeave3}
               className={`${
                 hover3 ? "bg-background" : "bg-secondary"
-              } leading-5 py-4 pl-4 pr-7 mt-5 clip-path-mypolygon inline-flex items-center gap-6 font-bebas text-lg text-primary p-8 cursor-pointer `}
+              } duration-300 leading-5 py-4 pl-4 pr-7 mt-5 clip-path-mypolygon inline-flex items-center gap-6 font-bebas text-lg text-primary p-8 cursor-pointer `}
             >
               Ver modalidades
               <Image src="/Arrow.png" width={20} height={20} alt="icone seta" />
@@ -134,7 +140,9 @@ const Benefits = () => {
           <div
             onMouseEnter={handlerMouseEnter4}
             onMouseLeave={handleMouseLeave4}
-            className={`${hover4 ? "bg-secondary" : ""} text-primary p-6 `}
+            className={`${
+              hover4 ? "bg-secondary" : ""
+            } duration-300 text-primary p-6 `}
           >
             <Image
               src="/gym.png"
@@ -152,7 +160,7 @@ const Benefits = () => {
               onMouseLeave={handleMouseLeave4}
               className={`${
                 hover4 ? "bg-background" : "bg-secondary"
-              } leading-5 py-2 pl-4 pr-7 mt-5 clip-path-mypolygon inline-flex items-center gap-6 font-bebas text-base text-primary p-8 cursor-pointer `}
+              } duration-300 leading-5 py-2 pl-4 pr-7 mt-5 clip-path-mypolygon inline-flex items-center gap-6 font-bebas text-base text-primary p-8 cursor-pointer `}
             >
               Faça um tour
               <br /> virtual

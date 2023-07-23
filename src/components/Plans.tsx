@@ -4,7 +4,7 @@ import React from "react";
 const Plans = () => {
   return (
     <section className="mx-auto">
-      <div className="bg-secondary">
+      <div className="bg-secondary pt-20">
         <h3 className="font-bebas text-7xl text-primary text-center">
           nossos planos
         </h3>

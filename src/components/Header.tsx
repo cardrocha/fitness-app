@@ -37,14 +37,14 @@ const Menu = () => {
           src="/Rectangle.png"
           width={735}
           height={700}
-          alt="seção hero"
+          alt="fundo hero"
         />
         <Image
           className="absolute top-28 right-40 z-20"
           src="/pngwing.png"
           width={473}
           height={626}
-          alt="seção hero"
+          alt="cara segurando peso nas mãos"
         />
       </div>
     </section>
