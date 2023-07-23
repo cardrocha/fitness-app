@@ -3,13 +3,13 @@ import React from "react";
 
 const Plans = () => {
   return (
-    <section className="mx-auto">
+    <section id="precos">
       <div className="bg-secondary pt-20">
         <h3 className="font-bebas text-7xl text-primary text-center">
           nossos planos
         </h3>
-        <div className="container mx-auto flex items-end gap-10 py-20">
-          <div className="mt-24 w-[400px]">
+        <div className="container mx-auto flex items-end gap-10 pb-20">
+          <div className="mt-24">
             <div className="flex flex-col">
               <Image
                 src="/Rectangle_3.png"
@@ -31,7 +31,7 @@ const Plans = () => {
               </div>
             </div>
           </div>
-          <div className="mt-24 w-[400px]">
+          <div className="w-[400px]">
             <p className="bg-secondaryBackground font-mont font-bold text-center text-primary text-lg whitespace-nowrap py-2 px-11">
               RECOMENDADO POR USUÁRIOS
             </p>
@@ -40,7 +40,7 @@ const Plans = () => {
                 src="/Rectangle_1.png"
                 width={400}
                 height={168}
-                alt="pessoa levantando peso"
+                alt="pessoa treinando boxe"
               />
               <p className="bg-secondaryBackground font-bebas text-primary text-[42px] whitespace-nowrap py-2 pl-5 pr-48">
                 passe de 1 dia
@@ -57,13 +57,13 @@ const Plans = () => {
               </div>
             </div>
           </div>
-          <div className="mt-24 w-[400px]">
+          <div className="w-[400px]">
             <div className="flex flex-col">
               <Image
-                src="/Rectangle_3.png"
+                src="/Rectangle_13.png"
                 width={400}
                 height={168}
-                alt="pessoa levantando peso"
+                alt="pessoa treinando com corda naval"
               />
               <p className="bg-black font-bebas text-primary text-[42px] whitespace-nowrap py-2 pl-5 pr-48">
                 passe de 1 ano

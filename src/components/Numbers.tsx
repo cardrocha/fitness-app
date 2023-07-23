@@ -3,21 +3,21 @@ import React from "react";
 
 const Numbers = () => {
   return (
-    <section className="relative">
+    <section id="equipamentos" className="relative">
       <div>
         <Image
           className="absolute top-0 left-0 z-0"
           src="/Rectangle_10.png"
           width={368}
           height={300}
-          alt="fundo hero"
+          alt="fundo section numbers"
         />
         <Image
           className="absolute top-36 left-20 z-10"
           src="/pngwing_2.png"
           width={380}
           height={300}
-          alt="fundo hero"
+          alt="duas pessoas fazendo pose segurando pesos"
         />
       </div>
       <div className="container mx-auto">

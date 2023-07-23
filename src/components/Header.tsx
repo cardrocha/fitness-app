@@ -19,13 +19,13 @@ const Menu = () => {
               <a href="#sobre">SOBRE</a>
             </li>
             <li>
-              <a href="#sobre">SERVIÇOS</a>
+              <a href="#servicos">SERVIÇOS</a>
             </li>
             <li>
-              <a href="#sobre">PREÇOS</a>
+              <a href="#precos">PREÇOS</a>
             </li>
             <li>
-              <a href="#sobre">EQUIPAMENTOS</a>
+              <a href="#equipamentos">EQUIPAMENTOS</a>
             </li>
             <li>
               <a className="bg-secondary py-2 px-8 clip-path-mypolygon" href="#sobre">REGISTRE-SE</a>

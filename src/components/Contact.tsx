@@ -1,7 +1,19 @@
-import Image from "next/image";
+"use client";
+
 import React from "react";
+import InputMask from "react-input-mask";
+import Image from "next/image";
 
 const Contact = () => {
+  const [name, setName] = React.useState("");
+  const [phone, setPhone] = React.useState("");
+
+  const submitForm = (e: React.FormEvent) => {
+    e.preventDefault();
+    setName("");
+    setPhone("");
+  };
+
   return (
     <section className="bg-secondary mt-[138px] pb-28 relative">
       <div className="container mx-auto text-primary">
@@ -10,7 +22,7 @@ const Contact = () => {
           Matricule-se agora mesmo! Fale com um de nossos atendentes
         </p>
       </div>
-      <form>
+      <form onSubmit={submitForm}>
         <div>
           <div
             className="bg-no-repeat bg-contain bg-center h-fit inline-flex items-center ml-8 mt-7 p-1"
@@ -22,6 +34,9 @@ const Contact = () => {
               className="bg-secondary clip-path-mypolygon outline-none px-1 font-mont text-lg text-primary mt-1"
               type="text"
               placeholder="NOME"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              maxLength={15}
               size={15}
               required
             />
@@ -32,12 +47,15 @@ const Contact = () => {
               backgroundImage: `url(/Rectangle_20.png)`,
             }}
           >
-            <input
+            <InputMask
               className="bg-secondary clip-path-mypolygon outline-none px-1 font-mont text-lg text-primary mt-1"
-              type="tel"
+              type="text"
               placeholder="TELEFONE"
+              value={phone}
+              onChange={(e) => setPhone(e.target.value)}
               size={15}
               required
+              mask="99 99999 9999"
             />
           </div>
         </div>
@@ -52,7 +70,7 @@ const Contact = () => {
         src="/pngwing_3.png"
         width={405}
         height={300}
-        alt="fundo hero"
+        alt="mulher treinando com duas anilhas nas mãos"
       />
     </section>
   );
