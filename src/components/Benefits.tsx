@@ -47,7 +47,7 @@ const Benefits = () => {
         <h2 className="font-bungee text-6xl text-center text-primary mt-40">
           Nossos <span className="font-bebas text-7xl">diferenciais</span>
         </h2>
-        <div className="flex mt-24">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 mt-24 place-items-center">
           <div
             onMouseEnter={handlerMouseEnter}
             onMouseLeave={handleMouseLeave}

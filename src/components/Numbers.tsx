@@ -3,7 +3,7 @@ import React from "react";
 
 const Numbers = () => {
   return (
-    <section id="equipamentos" className="relative">
+    <section id="equipamentos" className="container mx-auto relative">
       <div>
         <Image
           className="absolute top-0 left-0 z-0"

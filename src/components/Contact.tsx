@@ -30,10 +30,10 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-secondary mt-[138px] pb-28 relative">
+    <section className="container mx-auto bg-secondary mt-[138px] pb-28 relative">
       <div className="container mx-auto text-primary">
-        <h3 className="font-bebas text-7xl pt-16">ENTRE EM CONTATO</h3>
-        <p className="font-mont text-2xl mt-5">
+        <h3 className="font-bebas text-7xl ml-8 pt-16">ENTRE EM CONTATO</h3>
+        <p className="font-mont text-2xl ml-8 mt-5">
           Matricule-se agora mesmo! Fale com um de nossos atendentes
         </p>
       </div>
@@ -88,11 +88,11 @@ const Contact = () => {
         alt="mulher treinando com duas anilhas nas mãos"
       />
       {showMessage && (
-      <div className="bg-primary p-2 mt-7 animate-fade-in-out">
-        <p className="font-mont text-xl ml-16 font-semibold">
-          Entraremos em contato o mais breve possível, obrigado!
-        </p>
-      </div>
+        <div className="bg-primary p-2 mt-7 animate-fade-in-out">
+          <p className="font-mont text-xl ml-16 font-semibold">
+            Entraremos em contato o mais breve possível, obrigado!
+          </p>
+        </div>
       )}
     </section>
   );

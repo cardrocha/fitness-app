@@ -3,13 +3,13 @@ import React from "react";
 
 const Plans = () => {
   return (
-    <section id="precos">
+    <section id="precos" className="container mx-auto">
       <div className="bg-secondary pt-20">
         <h3 className="font-bebas text-7xl text-primary text-center">
           nossos planos
         </h3>
-        <div className="container mx-auto flex items-end gap-10 pb-20">
-          <div className="mt-24">
+        <div className="container mx-auto flex flex-col items-center xl:flex-row xl:items-end justify-center gap-8 pb-20">
+          <div className="mt-24 w-[400px]">
             <div className="flex flex-col">
               <Image
                 src="/Rectangle_3.png"
