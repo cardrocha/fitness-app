@@ -6,10 +6,10 @@ const Hero = () => {
     <>
       <section id="sobre" className="container mx-auto z-30 relative">
         <div>
-          <p className="font-bungee text-7xl p-3 text-primary mt-32">
+          <p className="font-bungee text-6xl md:text-7xl xl:text-7xl p-3 text-primary mt-32">
             AQUI NÃO SE
           </p>
-          <p className="font-bebas text-8xl p-3 leading-3	 text-primary mt-7">
+          <p className="font-bebas text-7xl md:text-8xl xl:text-8xl p-3 leading-3 text-primary mt-7">
             TREINA FOFO
           </p>
           <p className="font-mont text-lg mt-7 p-3 text-primary md:w-[410px] xl:w-[1280px]">
