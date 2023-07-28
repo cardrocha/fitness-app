@@ -46,14 +46,14 @@ const Menu = () => {
           </ul>
         </nav>
       </div>
-        <div className="absolute md:top-0 xl:top-0 right-0 w-[735px] md:h-[872px] xl:h-[730px] z-0">
+        <div className="absolute md:top-0 xl:top-0 right-0 w-[735px] md:h-[872px] xl:h-[816px] z-0">
           <Image
             src="/Rectangle.png"
             alt="fundo hero"
             fill
           />
         </div>
-        <div className="absolute sm:hidden md:block xl:block md:top-[335px] xl:top-[95px] md:w-[373px] md:h-[526px] xl:w-[473px] xl:h-[626px] md:right-5 xl:right-40 z-20">
+        <div className="absolute sm:hidden md:block xl:block md:top-[335px] xl:top-[180px] md:w-[373px] md:h-[526px] xl:w-[473px] xl:h-[626px] md:right-5 xl:right-40 z-20">
           <Image src="/pngwing.png" alt="cara segurando peso nas mãos" fill />
         </div>
     </section>

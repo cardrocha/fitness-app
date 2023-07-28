@@ -80,13 +80,13 @@ const Contact = () => {
           value="SOLICITAR CONTATO"
         ></input>
       </form>
-      <Image
-        className="absolute bottom-0 right-24 z-10"
-        src="/pngwing_3.png"
-        width={405}
-        height={300}
-        alt="mulher treinando com duas anilhas nas mãos"
-      />
+      <div className="absolute bottom-0 w-[405px] xl:h-[550px] right-24 z-10">
+        <Image
+          src="/pngwing_3.png"
+          alt="mulher treinando com duas anilhas nas mãos"
+          fill
+        />
+      </div>
       {showMessage && (
         <div className="bg-primary p-2 mt-7 animate-fade-in-out">
           <p className="font-mont text-xl ml-16 font-semibold">
