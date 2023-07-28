@@ -17,9 +17,9 @@ const Numbers = () => {
         </div>
       </div>
       <div className="container mx-auto flex flex-col items-center md:items-end xl:items-end md:h-[550px] xl:h-[516px]">
-        <h3 className="font-bungee text-primary text-5xl xl:text-6xl text-center md:text-right xl:text-right p-2 md:pr-5 xl:pr-36 pt-10 xl:pt-48">
+        <h3 className="font-bungee text-primary text-6xl text-center md:text-right xl:text-right p-2 md:pr-5 xl:pr-36 pt-10 xl:pt-48">
           faça parte{" "}
-          <span className="font-bebas text-6xl md:text-5xl xl:text-[82px]">
+          <span className="font-bebas text-6xl md:text-[56px] xl:text-[82px]">
             da família
           </span>
         </h3>
