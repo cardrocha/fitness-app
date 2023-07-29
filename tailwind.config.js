@@ -17,6 +17,8 @@ module.exports = {
         secondary: '#222',
         background: '#A03333',
         secondaryBackground: '#FF0202',
+        secondaryVariation: '#FF2020',
+        secondaryDark: '#660101',
         button: '#FF3939',
         secondaryGray: '#B4B4B4',
         secondaryText: '#787878'
