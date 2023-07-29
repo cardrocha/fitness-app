@@ -76,6 +76,17 @@ const Footer = () => {
       <span className="flex justify-center text-mont font-light text-xs text-primary">
         &copy; {currentYear} - Robust Habit - Todos direitos reservados
       </span>
+      <span className="flex items-center justify-center text-mont font-light text-xs mb-4 text-primary">
+        Designer desenvolvido por:{" "}
+        <a
+          className="font-semibold"
+          href="https://www.instagram.com/futurodevjohn/"
+          target="_blank"
+        >
+          {" "}
+          @Jonata Ferreira
+        </a>
+      </span>
     </section>
   );
 };
