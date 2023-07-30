@@ -8,8 +8,8 @@ const Plans = () => {
         <h3 className="font-bebas text-7xl text-primary text-center">
           nossos planos
         </h3>
-        <div className="container mx-auto flex flex-col items-center xl:flex-row xl:items-end justify-center gap-8 pb-20">
-          <div className="mt-24 w-[400px]">
+        <div className="container mx-auto flex flex-col items-center lg:flex-row xl:flex-row lg:items-end xl:items-end justify-center gap-8 pb-20">
+          <div className="mt-24 lg:w-[300px] xl:w-[400px]">
             <div className="flex flex-col">
               <Image
                 src="/Rectangle_3.png"
@@ -20,7 +20,7 @@ const Plans = () => {
               <p className="bg-black font-bebas text-primary text-[42px] whitespace-nowrap py-2 pl-5 pr-48">
                 passe de 1 dia
               </p>
-              <div className="inline-flex items-center justify-between px-6 py-3 font-light text-mont text-2xl text-secondaryText bg-secondaryGray">
+              <div className="inline-flex items-center justify-between px-6 py-3 font-light text-mont lg:text-xl xl:text-2xl text-secondaryText bg-secondaryGray">
                 <p>
                   Teste
                   <br /> gratuitamente
@@ -31,8 +31,8 @@ const Plans = () => {
               </div>
             </div>
           </div>
-          <div className="w-[400px]">
-            <p className="bg-secondaryBackground font-mont font-bold text-center text-primary text-lg whitespace-nowrap py-2 px-11">
+          <div className="lg:w-[300px] xl:w-[400px]">
+            <p className="bg-secondaryBackground font-mont font-bold text-center text-primary lg:text-base xl:text-lg whitespace-nowrap py-2 lg:px-0 xl:px-11">
               RECOMENDADO POR USUÁRIOS
             </p>
             <div className="flex flex-col">
@@ -57,7 +57,7 @@ const Plans = () => {
               </div>
             </div>
           </div>
-          <div className="w-[400px]">
+          <div className="lg:w-[300px] xl:w-[400px]">
             <div className="flex flex-col">
               <Image
                 src="/Rectangle_13.png"
