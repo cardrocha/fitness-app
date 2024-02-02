@@ -88,8 +88,8 @@ const Contact = () => {
         />
       </div>
       {showMessage && (
-        <div className="bg-primary p-2 mt-7 animate-fade-in-out">
-          <p className="font-mont text-xl ml-16 font-semibold">
+        <div className="bg-primary p-2 mt-7 animate-fade-in-out w-full absolute">
+          <p className="font-mont text-lg text-center lg:text-xl xl:text-xl xl:text-left xl:ml-16 font-semibold">
             Entraremos em contato o mais breve possível, obrigado!
           </p>
         </div>
