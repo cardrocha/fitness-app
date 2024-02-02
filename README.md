@@ -1,3 +1,6 @@
+![Home da Robust Habit](public/fitness.png)
+
+
 # Robust Habit - Academia Fitness
 
 O projeto Robust Habit é um website dedicado a apresentar informações sobre uma academia e oferecer a possibilidade de contato para matrículas. O projeto é construído com Next.js, TypeScript e Tailwind CSS.
